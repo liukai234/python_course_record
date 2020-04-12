@@ -1,43 +1,28 @@
 '''
 @Author: your name
-@Date: 2020-03-30 17:55:53
-@LastEditTime: 2020-03-30 21:48:14
+@Date: 2020-04-03 15:32:52
+@LastEditTime: 2020-04-11 17:22:25
 @LastEditors: Please set LastEditors
-@Description: 1. 分支的嵌套结构
+@Description: In User Settings Edit
 @FilePath: /pyFile/test.py
 '''
-#!/usr/bin/python3
-a = int(input('a = '))
-b = int(input('b = '))
-c = int(input('c = '))
+sum = 0
+'''
+range(1, 100, 2)可以产生一个1到99的奇数序列，
+其中2是步长，即数值序列的增量。
+'''
+'''
+for x in range(101):
+    sum += x
+print(sum)
+'''
+
+import random
+
+answer = random.randint(1, 100)
 
 
-def printf(a, b):
-    "print"
-    print('maxValue is:', a, ' minValue is:', c)
-    print(printf.__doc__) #输出函数注释
-    return 0
-
-
-if a > b:
-    if b > c:
-        print('a > b > c')
-        printf(a, c)
-    else:
-        if a > c:
-            print('a > c > b')
-            printf(a, b)
-        else:
-            print('c > a > b')
-            printf(c, b)
-else:
-    if b < c:
-        print('c > b > a')
-        printf(c, a)
-    else:
-        if c > a:
-            print('b > c > a')
-            printf(b, a)
-        else:
-            print('b > a > c')
-            printf(b, c)
+for i in range(1, 10):
+    for j in range(1, i + 1):
+        print('%d*%d=%d' % (i, j, i * j), end='\t')
+    print()

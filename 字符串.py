@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-03-30 21:38:52
-@LastEditTime: 2020-03-30 21:52:49
+@LastEditTime: 2020-04-03 15:28:29
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /pyFile/test3.py
@@ -37,3 +37,5 @@ print (list[1:3])       # 从第二个开始输出到第三个元素
 print (list[2:])        # 输出从第三个元素开始的所有元素
 print (tinylist * 2)    # 输出两次列表
 print (list + tinylist) # 连接列表
+
+print('hello', 'world', sep='+', end='!') # sep是自动在元素之间补充的分隔字符
