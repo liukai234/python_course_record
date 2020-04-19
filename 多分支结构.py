@@ -1,10 +1,9 @@
 '''
-@Author: your name
-@Date: 2020-03-30 17:55:53
-@LastEditTime: 2020-04-03 15:06:09
-@LastEditors: Please set LastEditors
-@Description: 2. 多分支结构语句
-@FilePath: /pyFile/test.py
+@Description: 判断三个数的最大值和最小值
+@LastEditors: liukai
+@Date: 2020-04-19 19:44:07
+@LastEditTime: 2020-04-19 19:44:24
+@FilePath: /pyFile/多分支结构.py
 '''
 #!/usr/bin/python3
 a = int(input('a = '))

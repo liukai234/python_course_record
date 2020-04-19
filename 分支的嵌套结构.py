@@ -1,11 +1,11 @@
 '''
-@Author: your name
-@Date: 2020-03-30 17:55:53
-@LastEditTime: 2020-04-03 15:06:45
-@LastEditors: Please set LastEditors
-@Description: 1. 分支的嵌套结构
-@FilePath: /pyFile/test.py
+@Description: 分支的嵌套结构
+@LastEditors: liukai
+@Date: 2020-04-19 19:44:34
+@LastEditTime: 2020-04-19 19:44:34
+@FilePath: /pyFile/分支的嵌套结构.py
 '''
+
 #!/usr/bin/python3
 a = int(input('a = '))
 b = int(input('b = '))
