@@ -2,7 +2,7 @@
 @Description: 完数
 @LastEditors: liukai
 @Date: 2020-04-19 19:45:57
-@LastEditTime: 2020-04-19 19:45:57
+@LastEditTime: 2020-04-20 09:50:14
 @FilePath: /pyFile/完数.py
 '''
 
@@ -19,7 +19,7 @@ def call(x):
     if x == sum:
         return True
     return False
-if __name__ == '__main__': # 如果被test中的模块调用，此时的名字为lyy2，不为main，所以不会执行
+if __name__ == '__main__': # 如果被test中的模块调用，此时的名字为'完数'，不为main，所以不会执行
     for ite in range(1, n + 1, 1):
         if call(ite) == True:
             print(ite)

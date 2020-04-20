@@ -2,7 +2,7 @@
 @Description: 判断三个数的最大值和最小值
 @LastEditors: liukai
 @Date: 2020-04-19 19:44:07
-@LastEditTime: 2020-04-19 19:44:24
+@LastEditTime: 2020-04-20 09:49:52
 @FilePath: /pyFile/多分支结构.py
 '''
 #!/usr/bin/python3
@@ -15,6 +15,7 @@ def printf(a, b):
     print('maxValue is:', a,' minValue is:', b); 
     return 0
 
+# 多分支结构即使用if-elif，类似C/C++分割中的switch-case语句
 if a > b:
     if b > c:
         print('a > b > c')

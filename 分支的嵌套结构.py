@@ -2,7 +2,7 @@
 @Description: 分支的嵌套结构
 @LastEditors: liukai
 @Date: 2020-04-19 19:44:34
-@LastEditTime: 2020-04-19 19:44:34
+@LastEditTime: 2020-04-20 09:49:26
 @FilePath: /pyFile/分支的嵌套结构.py
 '''
 
@@ -18,7 +18,7 @@ def printf(a, b):
     print(printf.__doc__) #输出函数注释
     return 0
 
-
+# 分支嵌套结构
 if a > b:
     if b > c:
         print('a > b > c')
