@@ -1,4 +1,7 @@
-# ignore .vscode folder
+# Config by user
+test.py
+
+# Ignore .vscode folder
 .vscode/
 
 # Byte-compiled / optimized / DLL files
