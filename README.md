@@ -2,11 +2,12 @@
  * @Description: Zen of Python(Python之禅)
  * @LastEditors: liukai
  * @Date: 2020-04-20 09:37:36
- * @LastEditTime: 2020-04-21 08:22:33
+ * @LastEditTime: 2020-04-21 19:18:41
  * @FilePath: /pyFile/README.md
  -->
 
 # python学习记录 开始于2020/3/30
+## 项目在持续构建中
 ## Zen of Python&nbsp;✔import this✔
 <font size="4" color="#16a085">Beautiful is better than ugly.</font>&nbsp;&nbsp;#优美比丑陋好  
 <font size="4" color="#16a085">Explicit is better than implicit.</font>&nbsp;&nbsp;#清晰比晦涩好  
