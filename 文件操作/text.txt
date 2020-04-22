@@ -1,2 +1,2 @@
 猫猫倒过来念也是猫猫
-encoding gb-2312
+encoding gb2312
