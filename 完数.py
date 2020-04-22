@@ -2,7 +2,7 @@
 @Description: 完数
 @LastEditors: liukai
 @Date: 2020-04-19 19:45:57
-@LastEditTime: 2020-04-20 09:50:14
+@LastEditTime: 2020-04-22 17:58:11
 @FilePath: /pyFile/完数.py
 '''
 
