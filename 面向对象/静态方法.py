@@ -2,7 +2,7 @@
 @Description: 
 @LastEditors: liukai
 @Date: 2020-04-22 12:27:52
-@LastEditTime: 2020-04-22 12:28:26
+@LastEditTime: 2020-04-22 12:31:07
 @FilePath: /pyFile/面向对象/静态方法.py
 '''
 '''
@@ -38,7 +38,7 @@ class Triangle(object):
 def main():
     a, b, c = 3, 4, 5
     # 静态方法和类方法都是通过给类发消息来调用的
-    if Triangle.is_valid(a, b, c):
+    if Triangle.is_valid(a, b, c): # 在调用这个方法时三角形对象尚未创建出来,此方法是属于三角形类而并不属于三角形对象
         t = Triangle(a, b, c)
         print(t.perimeter())
         # 也可以通过给类发消息来调用对象方法但是要传入接收消息的对象作为参数
