@@ -1,3 +1,6 @@
+# Ignore .idea folder
+.idea/
+
 # Config by user
 test.py
 
