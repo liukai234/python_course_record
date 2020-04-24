@@ -33,3 +33,10 @@ def test():
     #  lambda 表达式调用内置函数map()
     x = map (lambda x: x * x if x % 2 == 0 else 0 , range(10))
     print([y for y in x])
+    # [注]
+    # 刘润凤 19:36:14 
+    # map() 会根据提供的函数对指定序列做映射
+    # 第一个参数 function 以参数序列中的每一个元素调用 function 函数，返回包含每次 function 函数返回值的新列表
+
+    # 刘润凤 19:39:03
+    # lambda写的单行函数:后边的表达式用了三目运算，如果是偶数，返回值就是 x*x,是奇数返回值为0
