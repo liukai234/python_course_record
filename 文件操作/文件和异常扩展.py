@@ -2,7 +2,7 @@
 @Description: 
 @LastEditors: liukai
 @Date: 2020-04-23 09:09:54
-@LastEditTime: 2020-04-24 19:21:17
+@LastEditTime: 2020-04-24 19:58:58
 @FilePath: /pyFile/文件操作/文件和异常扩展.py
 '''
 
@@ -83,6 +83,17 @@ try:
     # p.mkdir(exist_ok=True) 通过exist_ok来忽略异常
 except FileExistsError as e:
     print(e)
+
+# 创建多个目录
+p = Path('dir1/dir2/dir3') 
+'''
+创建好的目录格式为：
+|-dir1
+| |-dir2
+| | |-dir3
+'''
+# parents=True 参数使它创建dir3目录和使其路径有效的所有父级目录
+p.mkdir(parents=True, exist_ok=True)
 
 # #
 # 后边留着我接着补
