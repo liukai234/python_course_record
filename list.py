@@ -101,6 +101,8 @@ print(str_0)
 # 从小到大排序
 number.sort()
 print(number)
+number.sort(reverse=False)
+print(number)
 # 从大到小排序
 number.sort(reverse=True)
 print(number)
