@@ -2,7 +2,7 @@
 @Description: 
 @LastEditors: liukai
 @Date: 2020-04-23 09:09:54
-@LastEditTime: 2020-04-24 19:58:58
+@LastEditTime: 2020-04-26 14:37:53
 @FilePath: /pyFile/文件操作/文件和异常扩展.py
 '''
 
@@ -35,7 +35,7 @@ with os.scandir('scandir') as entries:
 # 使用pathlib.Path
 from pathlib import Path
 import datetime
-# athlib 提供了一组类，以简单并且面向对象的方式提供了路径上的大多数常见的操作。使用 pathlib
+# pathlib 提供了一组类，以简单并且面向对象的方式提供了路径上的大多数常见的操作。使用 pathlib
 # 比起使用 os 中的函数更加有效。和 os 相比，使用 pathlib 的另一个好处是减少了操作文件系统路
 # 径所导入包或模块的数量
 # 转载自 https://zhuanlan.zhihu.com/p/56909212
@@ -79,8 +79,7 @@ for item in files_in_entries:
 # 创建单个目录
 p = Path('sub4')
 try:
-    p.mkdir()
-    # p.mkdir(exist_ok=True) 通过exist_ok来忽略异常
+    p.mkdir(exist_ok=True) # 通过exist_ok来忽略异常
 except FileExistsError as e:
     print(e)
 
@@ -95,5 +94,23 @@ p = Path('dir1/dir2/dir3')
 # parents=True 参数使它创建dir3目录和使其路径有效的所有父级目录
 p.mkdir(parents=True, exist_ok=True)
 
-# #
-# 后边留着我接着补
+# 文件名模式匹配
+# dosomething
+
+# 删除文件
+print('创建文件subfile4.txt')
+del_file = Path('subfile4.txt')
+del_file.touch(mode=666, exist_ok=True)
+print('删除文件subfile4.txt')
+try:
+    del_file.unlink()
+except IsADirectoryError as e:
+    print(f'Error: {del_file} : {e.strerror}')
+
+print('删除目录sub4')
+del_dir = Path('sub4')
+try:
+    del_dir.rmdir()
+except OSError as e:
+    print(f'Error: {del_dir} : {e.strerror}')
+

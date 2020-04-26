@@ -2,7 +2,7 @@
 @Description: 
 @LastEditors: liukai
 @Date: 2020-04-22 18:05:21
-@LastEditTime: 2020-04-23 09:07:34
+@LastEditTime: 2020-04-26 14:32:14
 @FilePath: /pyFile/文件操作/文件和异常.py
 '''
 # 操作模式: r (读取 默认) w(写入 截断之前内容) x(写入 如果文件已存在会产生异常) 
