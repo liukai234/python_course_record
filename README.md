@@ -2,13 +2,13 @@
  * @Description: Zen of Python(Python之禅)
  * @LastEditors: liukai
  * @Date: 2020-04-20 09:37:36
- * @LastEditTime: 2020-04-27 09:32:26
+ * @LastEditTime: 2020-04-27 09:42:58
  * @FilePath: /pyFile/README.md
  -->
 
 # python学习记录 开始于2020/3/30
 ## 项目在持续构建中
-## 编程本身没什么特别的，就像可以标记的铅笔一样，仅此而已
+## 编程本身没什么特别的，就像可以标记的铅笔一样，仅此而已, 思考从混沌世界抽象出普遍规律特征
 ## Zen of Python ✔import this✔
 Beautiful is better than ugly. #优美比丑陋好  
 Explicit is better than implicit. #清晰比晦涩好  
