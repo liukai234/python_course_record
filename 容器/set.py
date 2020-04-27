@@ -2,7 +2,7 @@
 @Description: 
 @LastEditors: liukai
 @Date: 2020-04-21 08:34:39
-@LastEditTime: 2020-04-21 08:43:49
+@LastEditTime: 2020-04-27 09:53:24
 @FilePath: /pyFile/容器/set.py
 '''
 
@@ -22,7 +22,7 @@ print('set4 =', set4)
 set1.add(4)
 set1.add(5)
 set2.update([11, 12])
-set2.discard(5)
+set2.discard(5) # discard 丢弃
 if 4 in set2:
     set2.remove(4)
 print(set1, set2)
