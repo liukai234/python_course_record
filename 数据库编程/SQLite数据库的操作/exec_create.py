@@ -6,6 +6,7 @@ print(sqlite3.paramstyle)  # SQL语句中用问号做参数
 '''
 遵守DB API2.规范的SQLite数据库模块会提供一个connect()函数，用于连接数据库，并返回数据库连接对象
 程序只需要通过数据库连接对象打开游标，接下来就可以用游标老执行DL语句（负责创建表、修改表、删除表）
+***可以使用SQLite查看和管理数据库*** http://www.sqliteexpert.com/download.html
 '''
 # 1、打开或者创建数据库
 '''
