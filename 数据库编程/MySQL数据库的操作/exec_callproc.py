@@ -15,7 +15,7 @@ delimiter //
 '''
 
 # 连接数据库
-conn = mysql.connector.connect(user='root', password='tcoghwf6241',
+conn = mysql.connector.connect(user='root', password='6241',
                                host='localhost', port='3306',
                                database='python', use_unicode=True)
 '''下面的语句会自动提交'''
