@@ -2,8 +2,8 @@
 @Description: 判断三个数的最大值和最小值
 @LastEditors: liukai
 @Date: 2020-04-19 19:44:07
-@LastEditTime: 2020-04-20 09:49:52
-@FilePath: /pyFile/多分支结构.py
+@LastEditTime: 2020-05-08 21:49:54
+@FilePath: /pyFile/if-else/多分支结构.py
 '''
 #!/usr/bin/python3
 a = int(input('a = '))

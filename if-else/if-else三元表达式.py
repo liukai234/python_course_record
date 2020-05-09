@@ -2,7 +2,7 @@
 @Description: 三元表达式
 @LastEditors: liukai
 @Date: 2020-04-21 08:56:52
-@LastEditTime: 2020-04-27 09:52:47
+@LastEditTime: 2020-05-08 21:35:00
 @FilePath: /pyFile/if-else/if-else三元表达式.py
 '''
 
@@ -13,6 +13,17 @@ if x > y:
 	a = x
 else:
 	a = y
+
+print(a)
+
+
+
+
+
+
+
+
+
 
 # 上述语句可以简化为
 a = x if x > y else y
