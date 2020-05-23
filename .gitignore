@@ -1,3 +1,6 @@
+# Ignore 圆圆的py folder
+圆圆的py/
+
 # Ignore .idea folder
 .idea/
 
