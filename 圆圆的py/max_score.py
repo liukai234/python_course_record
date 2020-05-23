@@ -24,6 +24,7 @@ for key in name_dict:
 max_score = 0
 for ite in name_dict:
     if(name_dict[ite][1] > max_score):
+        max_score = name_dict[ite][1]
         max_index = ite
 
-print("姓名:%s 学号: %s 成绩: %.1f" % (ite, name_dict[ite][0], name_dict[ite][1]))
+print("姓名:%s 学号: %s 成绩: %.1f" % (max_index, name_dict[max_index][0], name_dict[max_index][1]))

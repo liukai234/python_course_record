@@ -6,8 +6,6 @@
 empty = []
 print(empty)
 
-
-
 # 创建字符串列表
 str_0 = ['abc', 'bcd', 'cde']
 print(str_0)

@@ -18,6 +18,7 @@ while True:
         score = float(input("成绩："))
         info_list.append(score)
         name_dict[name] = info_list
+
 for key in name_dict:
     print("姓名:%s 学号: %s 成绩: %.1f" % (key, name_dict[key][0], name_dict[key][1]))
 
