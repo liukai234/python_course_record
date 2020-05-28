@@ -1,8 +1,9 @@
 # Ignore 圆圆的py folder
-圆圆的py/
+# 圆圆的py/
 
 # Ignore .idea folder
 .idea/
+venv/
 
 # Config by user
 test.py
