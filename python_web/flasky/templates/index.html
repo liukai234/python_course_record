@@ -1,1 +1,16 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+    <!--标记路由-->
+    <a href="{{ url_for('r404') }}">404</a>
+    <!--img css js的静态文件使用的路由-->
+    <img src="{{ url_for('static', filename='img/main.jpg') }}"
+</body>
+
+</html>
