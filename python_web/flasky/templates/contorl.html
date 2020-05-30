@@ -1,0 +1,16 @@
+<!--条件控制-->
+{% if user %}
+    Hello, {{ user  }}!
+{% else %}
+    Hello, Stranger!
+{% endif %}
+
+<!--循环控制-->
+<ul>
+    {% for comment in comments %}
+        <li>{{ comment }}</li>
+    {% endfor %}
+</ul>
+
+<!--引入文件，避免过多重复-->
+{% include 'commom.html' %}
