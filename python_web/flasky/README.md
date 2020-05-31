@@ -7,3 +7,8 @@
 - source venv/bin/activate
 ## 退出虚拟环境
 - deactivate
+## 调整包搜索路径到虚拟环境中
+- 更改PYTHONPATH环境变量
+- export PYTHONPATH=$PYTHONPATH:/home/lk234/pyFile/python_web/flasky/venv/lib/python3.6/site-packages
+- 检查$PATHONPATH中是否有增加的路径
+- [注] 仅适用于当前终端
