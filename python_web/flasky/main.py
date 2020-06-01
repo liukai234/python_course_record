@@ -10,13 +10,18 @@ bootstrap = Bootstrap(app)
 @app.route('/')
 def index():
     # 使用的默认路径是 ./templates/index.html
-    return render_template('index.html', name = 'Test Page')
+    return render_template('index.html', name = 'TestPage')
 
 @app.route('/user/<name>')
 def user(name):
     # 左边的参数表示模板中使用的占位符，右边表示当前作用域中的变量
     # 两边使用相同的变量名很常见，但不是强制要求
     return render_template('user.html', name = name)
+
+@app.route('/r404')
+def r404():
+    # 使用的默认路径是 ./templates/index.html
+    return render_template('404.html')
 
 @app.errorhandler(404)
 def page_not_found(e):
