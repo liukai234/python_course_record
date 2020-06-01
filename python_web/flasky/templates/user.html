@@ -1,4 +1,26 @@
-<!-- <h1>Hello {\{ name }\}!</h1> -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flasky测试</title>
+  <meta charset="utf-8">
+  <meta name="author" content="liukai234">
+  <meta http-equiv="refresh" content="30">
+</head>
+
+<body style="margin: 0px; font-size: 100%">
+      <h1 style="background-color: #3498db; text-align: center; margin: 0px; padding-top: 20px; padding-bottom: 20px;">
+        Create by Flasky </h1>
+      <hr style="margin: 0px;">
+      <div style="margin-left: 20px; margin-right: 20px">
+        <p style="color:#2c3e50;font-size:20px;">当前页面路由/user/{{ name }}/</p>
+      </div>
+      <div style="margin-left: 20px; margin-right: 20px">
+        <p style="color:#2c3e50;font-size:20px;">Hello, {{name}}!</p>
+      </div>
+</body>
+
+</html>
 
 <!--Jinja2能识别所有类型的变量，甚至是一些复杂的类型，录入列表字典和对象-->
 <!--即使{\{ . }\}已被html注释 注释掉，仍会识别，所以对于注释内容要打乱{\{ . }\}格式-->
@@ -12,36 +34,3 @@
 
 <!--常用过滤器-->
 <!-- safe capitalize lower upper title trim striptags -->
-
-{% extends "bootstrap/base.html" %}
-
-{% block title %}Flasky{% endblock %}
-
-{% block navbar %}
-<div class="navbar navbar-inverse" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Flasky</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-{% endblock %}
-
-{% block content %}
-<div class="container">
-    <div class="page-header">
-        <h1>Hello, {{ name }}!</h1>
-    </div>
-</div>
-{% endblock %}
