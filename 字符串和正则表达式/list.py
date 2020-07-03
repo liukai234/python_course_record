@@ -21,6 +21,8 @@ print(mix)
 # 在列表最后添加有且仅有一个元素
 str_0.append('英语好难')
 print(str_0)
+str_0[len(str_0):] = ['放暑假了']
+print(str_0)
 len(str_0)
 
 # 用有且仅有一个列表扩展另一个列表，即同时在列表末尾添加多个元素
@@ -68,6 +70,8 @@ print(str_0)
 # 复制后直接输出，原列表不变
 print(number)
 print(number * 3)
+number_copy = number.copy()
+print(number_copy)
 # 复制后赋值给原列表
 number *= 2
 print(number)
@@ -101,8 +105,20 @@ print(str_0)
 # 从小到大排序
 number.sort()
 print(number)
-number.sort(reverse=False)
-print(number)
 # 从大到小排序
+number.reverse()
+print(number)
 number.sort(reverse=True)
 print(number)
+
+#替换列表中的元素
+str_0[0] = 'hahahha'
+print(str_0)
+str_0[str_0.index('hahahha')] = "哈哈哈"
+print(str_0)
+str_0[3:] = [54, 85, 95, 105]
+print(str_0)
+
+#清空列表
+str_0.clear()
+print(str_0)
