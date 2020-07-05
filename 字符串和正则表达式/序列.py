@@ -11,7 +11,7 @@
 # list()把一个可迭代对象转换为列表
 a = list()
 print(a)
-b = "shu jia kai shi la!"
+b = "shu jia kai shi la"
 b = list(b)
 print(b)
 c = (1, 1, 2, 3, 5, 8, 13, 21, 34)
